@@ -41,7 +41,7 @@ The semantic neighbors used in irregular convolution are selected based on the s
 
 # Running the model
 ### Required Packages
-Pytorch, numpy, pandas, etc.
+Pytorch, numpy, pandas, math, and tensorboardX.
 ### File description
 This repository provided a New York dataset used in the study, including the [bicycle usage data](./NYC/nyc_raw_data.npy) and [a look-up table](./NYC/DTW_Similarity_Table.csv.npy) that queries the semantic neighbors corresponding to all  predicted urban areas (measured by Dynamic Time Warping).  
  
