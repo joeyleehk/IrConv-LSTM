@@ -57,6 +57,7 @@ Here is the description of each project file:
  
 **data.py**: read and reformate historical bicycle usage data.
  
-
+# Citation
+Li, X., Xu, Y., Zhang, X., Shi, W., Yue, Y., & Li, Q. (2022). Improving short-term bike sharing demand forecast through an irregular convolutional neural network. arXiv preprint arXiv:2202.04376.
 
 
