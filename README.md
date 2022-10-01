@@ -36,11 +36,14 @@ the LSTM model to extract the temporal information in the sequence. The outputs 
 modules are fed into a feature fusion layer. The output of the feature fusion layer is activated by a
 non-linear function generating the predicted value. 
  
-The semantic neighbors used in irregular convolution are selected based on the similarity of bicycle usage patterns. Unlike spatial neighbors in regular convolution,  the semantic neighbor can be located in any urban area. For specific definitions of semantic neighbors, please refer to [IrConv+LSTM](https://arxiv.org/abs/2202.04376). 
+The semantic neighbors used in irregular convolution are selected based on the similarity of bicycle usage patterns. Unlike spatial neighbors in regular convolution,  the semantic neighbor can be located in any urban area. For specific definitions of semantic neighbors, please refer to Section 4.2 in the [paper](https://arxiv.org/abs/2202.04376). 
 <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/neighbors.jpg" width="655" height="348" alt="Semantic Neighbors"/></div>
 
 # Overall Accuracy
-placeholder
+<div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/overall accuracy.png" width="600" height="348" alt="Overall Accuracy"/></div>
+
+According the overall accuracy on all datasets, the proposed model, IrConv+LSTM, generally performs better than a collection of benchmark models, especially for CNN+LSTM model leveraging spatial dependency from spatially adjacent areas. Moreover, the semantic and spatial neighbors are very different from each other. For more detials, please refer to _Section 5.4_ in the [paper](https://arxiv.org/abs/2202.04376). 
+
 # Running the model
 ### Required Packages
 Pytorch, numpy, pandas, math, and tensorboardX.
@@ -57,7 +60,7 @@ Here is the description of each project file:
  
 **accuracy_assessment.py**: calculate the three indicators (MAPE, MAE, and RMSE) to evaluate the model performance. 
  
-**data.py**: read and reformate historical bicycle usage data.
+**data.py**: oad historical bicycle usage data.
  
 # Citation
 Li, X., Xu, Y., Zhang, X., Shi, W., Yue, Y., & Li, Q. (2022). Improving short-term bike sharing demand forecast through an irregular convolutional neural network. arXiv preprint arXiv:2202.04376.
