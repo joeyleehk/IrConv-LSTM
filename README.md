@@ -27,7 +27,7 @@ including one dockless bike-sharing system in _Singapore_, and four station-base
 The data for station-based systems are open for download. Some example datasets are [DivvyBike](https://ride.divvybikes.com/system-data) in Chicago, [CapitalBike](https://ride.capitalbikeshare.com/system-data) in D.C., and [CitiBike](https://ride.citibikenyc.com/system-data) in New York. 
  
 # Model Architecture
- <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/architecture.jpg" width="600" height="620" alt="Model Architecture"/></div>
+ <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/architecture.jpg" width="600" height="580" alt="Model Architecture"/></div>
   
 IrConv+LSTM contains three modules with the same structure. Each module adopts three layers of irregular
 convolutional architecture to capture the characteristics of bicycle demand among urban areas based on the semantic neighbors. The
@@ -39,6 +39,8 @@ non-linear function generating the predicted value.
 The semantic neighbors used in irregular convolution are selected based on the similarity of bicycle usage patterns. Unlike spatial neighbors in regular convolution,  the semantic neighbor can be located in any urban area. For specific definitions of semantic neighbors, please refer to [IrConv+LSTM](https://arxiv.org/abs/2202.04376). 
 <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/neighbors.jpg" width="655" height="348" alt="Semantic Neighbors"/></div>
 
+# Overall Accuracy
+placeholder
 # Running the model
 ### Required Packages
 Pytorch, numpy, pandas, math, and tensorboardX.
