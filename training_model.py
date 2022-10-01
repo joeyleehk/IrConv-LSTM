@@ -19,8 +19,8 @@ def train_model(size_of_kernel):
     :param
     size_of_kernel: The size of irregular convolution kernel size;
     start_date & end_date: The starting and ending date for training model;
-    valid_start_date & valid_end_dateL The starting and ending date for validating model;
-    :return:
+    valid_start_date & valid_end_date: The starting and ending date for validating model;
+    closeness_size & period_size & trend_size: Three historical periods for training model.
     """
 
     use_cuda = torch.cuda.is_available()
