@@ -52,15 +52,19 @@ This repository provided a New York dataset used in the study, including the [bi
  
 Here is the description of each project file:
  
-**model/irregular_convolution_LSTM.py**: the implementation of the proposed deep learning architecture. 
+**model/irregular_convolution_LSTM.py**: The implementation of the proposed deep learning architecture. 
  
-**training_model.py**: train the irregular convolution LSTM model on the New York dataset.
+**training_model.py**: Train the irregular convolution LSTM model on the New York dataset.
  
-**evaluation_model.py**: evaluate the model and generate the prediction results during the validation period. 
+**evaluation_model.py**: Evaluate the model and generate the prediction results during the validation period. 
  
-**accuracy_assessment.py**: calculate the three indicators (MAPE, MAE, and RMSE) to evaluate the model performance. 
+**accuracy_assessment.py**: Calculate the three indicators (MAPE, MAE, and RMSE) to evaluate the model performance. 
  
-**data.py**: oad historical bicycle usage data.
+**data.py**: Load historical bicycle usage data.
+ 
+**NYC/DTW_Similarity_Table.csv**: A look-up table to query the semantic neighbor IDs (selected based on DTW distance) of each central cell involved in irregular convolution.
+ 
+**NYC/nyc_raw_data.npy**: CitiBike in New York dataset which has been aggregated into regular grid map with 1km spatial resolution. 
  
 # Citation
 Li, X., Xu, Y., Zhang, X., Shi, W., Yue, Y., & Li, Q. (2022). Improving short-term bike sharing demand forecast through an irregular convolutional neural network. arXiv preprint arXiv:2202.04376.
