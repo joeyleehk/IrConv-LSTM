@@ -56,7 +56,7 @@ Here is the description of each project file:
  
 **training_model.py**: train the irregular convolution LSTM model on the New York dataset.
  
-**evaluation_data.py**: evaluate the model and generate the prediction results during the validation period. 
+**evaluation_model.py**: evaluate the model and generate the prediction results during the validation period. 
  
 **accuracy_assessment.py**: calculate the three indicators (MAPE, MAE, and RMSE) to evaluate the model performance. 
  
