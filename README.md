@@ -13,18 +13,11 @@ Yet, areas that are far apart can be relatively more similar in temporal
 usage patterns. 
  
 To utilize the hidden linkage among these distant urban areas, the study proposes
-an **Irregular Convolutional Long-Short Term Memory model (IrConv+LSTM)** to improve short-term
+an **Irregular Convolutional Long Short-Term Memory model (IrConv+LSTM)** to improve short-term
 bike sharing demand forecast. The model modifies traditional CNN with irregular convolutional
 architecture to extract dependency among “semantic neighbors”.
  
 ### **This study has been preprinted on [arXiv.org](https://arxiv.org/abs/2202.04376).**
-
- 
-# Datasets
- 
-We select five bike-sharing datasets to evaluate the robustness and reliability of our proposed model, 
-including one dockless bike-sharing system in _Singapore_, and four station-based systems in _Chicago, Washington, D.C., London, and New York_. 
-The data for station-based systems are open for download. Some example datasets are [DivvyBike](https://ride.divvybikes.com/system-data) in Chicago, [CapitalBike](https://ride.capitalbikeshare.com/system-data) in D.C., and [CitiBike](https://ride.citibikenyc.com/system-data) in New York. 
  
 # Model Architecture
  <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/architecture.jpg" width="600" height="580" alt="Model Architecture"/></div>
@@ -38,7 +31,13 @@ non-linear function generating the predicted value.
  
 The semantic neighbors used in irregular convolution are selected based on the similarity of bicycle usage patterns. Unlike spatial neighbors in regular convolution,  the semantic neighbor can be located in any urban area. For specific definitions of semantic neighbors, please refer to Section 4.2 in the [paper](https://arxiv.org/abs/2202.04376). 
 <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/neighbors.jpg" width="655" height="348" alt="Semantic Neighbors"/></div>
-
+ 
+# Datasets
+ 
+We select five bike-sharing datasets to evaluate the robustness and reliability of our proposed model, 
+including one dockless bike-sharing system in _Singapore_, and four station-based systems in _Chicago, Washington, D.C., London, and New York_. 
+The data for station-based systems are open for download, such as [DivvyBike](https://ride.divvybikes.com/system-data) in Chicago, [CapitalBike](https://ride.capitalbikeshare.com/system-data) in D.C., and [CitiBike](https://ride.citibikenyc.com/system-data) in New York. 
+ 
 # Overall Accuracy
 <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/overall accuracy.png" width="600" height="348" alt="Overall Accuracy"/></div>
 
