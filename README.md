@@ -15,7 +15,7 @@ usage patterns.
 To utilize the hidden linkage among these distant urban areas, the study proposes
 an **Irregular Convolutional Long Short-Term Memory model (IrConv+LSTM)** to improve short-term
 bike sharing demand forecast. The model modifies traditional CNN with irregular convolutional
-architecture to extract dependency among “semantic neighbors”.
+architecture to extract dependency among “semantic neighbors”. 
  
 ### **This study has been preprinted on [arXiv.org](https://arxiv.org/abs/2202.04376).**
  
@@ -64,6 +64,8 @@ Here is the description of each project file:
 **NYC/DTW_Similarity_Table.csv**: A look-up table to query the semantic neighbor IDs (selected based on DTW distance) of each central cell involved in irregular convolution.
  
 **NYC/nyc_raw_data.npy**: CitiBike in New York dataset which has been aggregated into regular grid map with 1km spatial resolution. 
+ 
+Please feel free to share feedback, discuss topics or ask questions. (Email: lxyjoeylee@gmail.com)
  
 # Citation
 Li, X., Xu, Y., Zhang, X., Shi, W., Yue, Y., & Li, Q. (2022). Improving short-term bike sharing demand forecast through an irregular convolutional neural network. arXiv preprint arXiv:2202.04376.
