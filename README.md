@@ -29,7 +29,7 @@ the LSTM model to extract the temporal information in the sequence. The outputs 
 modules are fed into a feature fusion layer. The output of the feature fusion layer is activated by a
 non-linear function generating the predicted value. 
  
-The semantic neighbors used in irregular convolution are selected based on the similarity of bicycle usage patterns. Unlike spatial neighbors in regular convolution,  the semantic neighbor can be located in any urban area. For specific definitions of semantic neighbors, please refer to Section 4.2 in the [paper](https://arxiv.org/abs/2202.04376). 
+The semantic neighbors used in irregular convolution are selected based on the similarity of bicycle usage patterns. Unlike spatial neighbors in regular convolution,  the semantic neighbor can be located in any urban area. For specific definitions of semantic neighbors, please refer to Section 4.2 in the [paper](https://doi.org/10.1016/j.trc.2022.103984). 
 <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/neighbors.jpg" width="655" height="348" alt="Semantic Neighbors"/></div>
  
 # Datasets
