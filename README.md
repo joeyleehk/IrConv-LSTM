@@ -1,5 +1,5 @@
 # Improving short-term bike sharing demand forecast through an irregular convolutional neural network
-An irregular convolution Long Short-Term Memory network to predict shared bicycle usage in urban areas during the next one hour
+An irregular convolution Long Short-Term Memory network to predict shared bicycle usage in urban areas during the next one hour.
  
 _Li X, Xu Y, Zhang X, et al. Improving short-term bike sharing demand forecast through an irregular convolutional neural network[J]. Transportation Research Part C: Emerging Technologies, 2023, 147: 103984._
 # Abstract
@@ -68,6 +68,6 @@ Here is the description of each project file:
 Please feel free to share feedback, discuss topics or ask questions. (Email: lxyjoeylee@gmail.com)
  
 # Citation
-Li, X., Xu, Y., Zhang, X., Shi, W., Yue, Y., & Li, Q. (2022). Improving short-term bike sharing demand forecast through an irregular convolutional neural network. arXiv preprint arXiv:2202.04376.
+Li X, Xu Y, Zhang X, et al. Improving short-term bike sharing demand forecast through an irregular convolutional neural network[J]. Transportation Research Part C: Emerging Technologies, 2023, 147: 103984.
 
 
