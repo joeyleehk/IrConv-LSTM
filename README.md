@@ -41,7 +41,7 @@ The data for station-based systems are open for download, such as [DivvyBike](ht
 # Overall Accuracy
 <div align=center><img src="https://github.com/joeyleehk/IrConv-LSTM/blob/master/overall accuracy.png" width="600" height="348" alt="Overall Accuracy"/></div>
 
-According the overall accuracy on all datasets, the proposed model, IrConv+LSTM, generally performs better than a collection of benchmark models, especially for CNN+LSTM model leveraging spatial dependency from spatially adjacent areas. Moreover, the semantic and spatial neighbors are very different from each other. For more detials, please refer to _Section 5.4_ in the [paper](https://arxiv.org/abs/2202.04376). 
+According the overall accuracy on all datasets, the proposed model, IrConv+LSTM, generally performs better than a collection of benchmark models, especially for CNN+LSTM model leveraging spatial dependency from spatially adjacent areas. Moreover, the semantic and spatial neighbors are very different from each other. For more detials, please refer to _Section 5.4_ in the [paper](https://doi.org/10.1016/j.trc.2022.103984). 
 
 # Running the model
 ### Required Packages
